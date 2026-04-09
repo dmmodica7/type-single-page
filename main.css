@@ -6,7 +6,7 @@
     }
     
     body{
-    background-color: #ffb6d4;
+    background-color: #f9eee1;
     font-family: 'Playfair';
 }
 /* how the page wrapper will appear on mobile */
@@ -30,7 +30,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: #ff4d8d;
+background-color: #ad8f76;
 }
 
 #variations{
@@ -43,7 +43,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: #78ce9a;
+    background-color: #8e725c;
     height:200px;
 }
 
@@ -94,7 +94,7 @@ h3{
 
 h5{
     font-size:40px;
-    color:blue;
+    color:#af0e0e;
     margin:15px;
 }
 
