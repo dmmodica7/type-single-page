@@ -6,7 +6,7 @@
     }
     
     body{
-    background-color: pink;
+    background-color: #ffb6d4;
     font-family: 'Playfair';
 }
 /* how the page wrapper will appear on mobile */
@@ -30,7 +30,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: lightcoral;
+background-color: #ff4d8d;
 }
 
 #variations{
@@ -43,14 +43,14 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(138, 21, 21);
+    background-color: #78ce9a;
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: firebrick;
-    font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
+    color: rgb(255, 255, 255);
+    font-variation-settings: "opsz" 16, "wght" 500, "slnt" -8;
 }
 
 h3{
