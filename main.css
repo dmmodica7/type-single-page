@@ -25,6 +25,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
+    "h a"
     "h a";
 }
 
@@ -41,16 +42,21 @@ grid-area: v;
 grid-area: a;
 }
 }
+.hero{
+    background-image: url("assets/texture.png");
+    height:120px;
+}
 /* CSS for the footer */
 footer{
     background-color: #8e725c;
-    height:200px;
+    height:55px;
 }
 
 /* font styling area */
 h2{
     color: rgb(0, 0, 0);
     font-variation-settings: "opsz" 16, "wght" 500, "slnt" -8;
+    font-size: 32px;
 }
 
 h3{
@@ -60,7 +66,11 @@ h3{
     animation: weightChange 7s infinite;
 }
 
+p{
+    color: #000000;
+    font-size: 25px ;
 
+}
 
 @keyframes weightChange {
     0%, 100%{
@@ -93,7 +103,7 @@ h3{
 }
 
 h5{
-    font-size:40px;
+    font-size:65px;
     color:#af0e0e;
     margin:15px;
 }
